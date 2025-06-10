@@ -4,8 +4,6 @@
 
 <img src="apps/block_scout_web/assets/static/images/insoscope.svg" width="120" alt="InsoScope Logo"/>
 
-[![InsoScope](https://github.com/insoblok/insoscope/actions/workflows/config.yml/badge.svg)](https://github.com/insoblok/insoscope/actions)
-
 </div>
 
 InsoScope provides a user-friendly interface to view, confirm, and inspect transactions on the Flatgas blockchain — a Layer 1 protocol built on predictability, fairness, and protocol-level fee stability.
