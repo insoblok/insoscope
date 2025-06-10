@@ -1,44 +1,48 @@
-<h1 align="center">Blockscout</h1>
-<p align="center">Blockchain Explorer for inspecting and analyzing EVM Chains.</p>
+<h1 align="center">InsoScope</h1>
+<p align="center">Block explorer for the deterministic Flatgas blockchain.</p>
 <div align="center">
 
-[![Blockscout](https://github.com/blockscout/blockscout/actions/workflows/config.yml/badge.svg)](https://github.com/blockscout/blockscout/actions)
-[![Discord](https://dcbadge.vercel.app/api/server/blockscout?style=flat)](https://discord.gg/blockscout)
+<img src="apps/block_scout_web/assets/static/images/insoscope.svg" width="120" alt="InsoScope Logo"/>
+
+[![InsoScope](https://github.com/insoblok/insoscope/actions/workflows/config.yml/badge.svg)](https://github.com/insoblok/insoscope/actions)
 
 </div>
 
+InsoScope provides a user-friendly interface to view, confirm, and inspect transactions on the Flatgas blockchain — a Layer 1 protocol built on predictability, fairness, and protocol-level fee stability.
 
-Blockscout provides a comprehensive, easy-to-use interface for users to view, confirm, and inspect transactions on EVM (Ethereum Virtual Machine) blockchains. This includes Ethereum Mainnet, Ethereum Classic, Optimism, Gnosis Chain and many other **Ethereum testnets, private networks, L2s and sidechains**.
+It is a customized fork of [Blockscout](https://github.com/blockscout/blockscout), adapted to reflect the design goals and branding of the Flatgas ecosystem and its native token, `inso`.
 
-See our [project documentation](https://docs.blockscout.com/) for detailed information and setup instructions.
+## About InsoScope
 
-For questions, comments and feature requests see the [discussions section](https://github.com/blockscout/blockscout/discussions) or via [Discord](https://discord.com/invite/blockscout).
+InsoScope allows users to search for transactions, view accounts and balances, verify smart contracts, and inspect the Flatgas chain transparently.
 
-## About Blockscout
-
-Blockscout allows users to search transactions, view accounts and balances, verify and interact with smart contracts and view and interact with applications on the Ethereum network including many forks, sidechains, L2s and testnets.
-
-Blockscout is an open-source alternative to centralized, closed source block explorers such as Etherscan, Etherchain and others.  As Ethereum sidechains and L2s continue to proliferate in both private and public settings, transparent, open-source tools are needed to analyze and validate all transactions.
-
-## Supported Projects
-
-Blockscout currently supports several hundred chains and rollups throughout the greater blockchain ecosystem. Ethereum, Cosmos, Polkadot, Avalanche, Near and many others include Blockscout integrations. A comprehensive list is available at [chains.blockscout.com](https://chains.blockscout.com). If your project is not listed, contact the team in [Discord](https://discord.com/invite/blockscout).
+It builds on Blockscout’s open-source core, tailored to support the Flatgas chain’s deterministic, non-bidding fee model.
 
 ## Getting Started
 
-See the [project documentation](https://docs.blockscout.com/) for instructions:
+See the [project documentation](https://docs.blockscout.com/) for general instructions (valid for InsoScope too):
 
 - [Manual deployment](https://docs.blockscout.com/for-developers/deployment/manual-deployment-guide)
 - [Docker-compose deployment](https://docs.blockscout.com/for-developers/deployment/docker-compose-deployment)
-- [Kubernetes deployment](https://docs.blockscout.com/for-developers/deployment/kubernetes-deployment)
-- [Manual deployment (backend + old UI)](https://docs.blockscout.com/for-developers/deployment/manual-old-ui)
-- [Ansible deployment](https://docs.blockscout.com/for-developers/ansible-deployment)
 - [ENV variables](https://docs.blockscout.com/setup/env-variables)
 - [Configuration options](https://docs.blockscout.com/for-developers/configuration-options)
 
-## Acknowledgements
+🧪 Development Environment (Planned Nix Support)
 
-We would like to thank the EthPrize foundation for their funding support.
+We plan to support Nix/NixOS-based development and deployment for InsoScope, to ensure reproducibility and environment consistency across contributors and nodes.
+
+This is a work-in-progress as the team gradually integrates Nix support into our toolchain. Contributions welcome as we learn and build this support.
+
+
+## Customization Highlights
+
+- InsoScope branding (logo, name, color scheme)
+- Flatgas chain configuration in progress
+- Will evolve with native Flatgas protocol features
+
+## Credits
+
+This project is based on [Blockscout](https://github.com/blockscout/blockscout) and retains its GPLv3 licensing.
 
 ## Contributing
 
